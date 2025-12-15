@@ -101,6 +101,7 @@ HeadlessMode: false, // Shows the browser UI
 Run the command again: go run .
 
 ---
+
 💻 Sample Output
 The output demonstrates the Worker Pool in action. Notice how multiple profiles are processed simultaneously (concurrently) rather than one by one.
 
@@ -119,11 +120,12 @@ Worker 3 started.
 [MOCK] Connection request sent to Bill Gates
 📧 [QUEUE] Welcome message queued for Bill Gates: 'Hi, thanks for connecting!'
 
---- 📊 Final Execution Report ---
+--- 📊 Final Execution Report
 [Success] Satya Nadella
 [Success] Bill Gates
 
 ---
+
 📂 Project Structure
 This project follows a clean, modular architecture to separate data handling, business logic, and orchestration.
 
@@ -136,6 +138,7 @@ linkedin-automation/
 └── go.mod            # Dependencies: Manages external libraries like 'chromedp'.
 
 ---
+
 ⚠️ Disclaimer
 Please Read Carefully: This software is developed strictly for educational and assessment purposes as part of an internship application.
 
@@ -146,9 +149,12 @@ Liability: The author is not responsible for any account restrictions, bans, or 
 Recommendation: Use the provided MockMode for all demonstrations to ensure compliance and safety.
 
 ---
+
 🔗 References & Resources
 Browser Automation: Chromedp GitHub Repository - The engine used to drive the Chrome browser.
 
 Concurrency in Go: Go by Example: Worker Pools - The pattern used to manage scalable requests.
 
 CSV Handling: Go Standard Library: encoding/csv - Documentation for the file parser.
+
+---
