@@ -84,7 +84,8 @@ cfg := Config{
 
 You can run the automation tool directly from your terminal. By default, the project comes with a leads.csv file for testing.
 
-1. **Standard Run (Simulation Mode) This mode validates your logic without launching a browser, making it safe and fast for testing.
+1. **Standard Run (Simulation Mode)** 
+```This mode validates your logic without launching a browser, making it safe and fast for testing.
 
 Bash
 `go run .`
@@ -98,7 +99,7 @@ Bash
 
 MockMode: false,     // Enables real browser actions
 HeadlessMode: false, // Shows the browser UI
-Run the command again: go run .
+Run the command again: go run .```
 
 ---
 
