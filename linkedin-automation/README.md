@@ -80,15 +80,17 @@ cfg := Config{
 
 ---
 
-🏃 Usage
+## 🏃 Usage
+
 You can run the automation tool directly from your terminal. By default, the project comes with a leads.csv file for testing.
 
-1. Standard Run (Simulation Mode) This mode validates your logic without launching a browser, making it safe and fast for testing.
+1. **Standard Run (Simulation Mode) This mode validates your logic without launching a browser, making it safe and fast for testing.
 
 Bash
+`go run .`
 
-go run .
-2. Live Browser Mode To see the bot control the Chrome browser in real-time:
+
+2. **Live Browser Mode To see the bot control the Chrome browser in real-time:
 
 1. Open main.go.
 
